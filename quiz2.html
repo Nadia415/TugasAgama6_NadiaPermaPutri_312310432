@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZ 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body { background: #f8f9fa; }
+
+        .content { 
+            background: white; 
+            padding: 40px; 
+            border-radius: 15px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        .ayat {
+            background: #e8f5e9;
+            padding: 15px;
+            border-left: 5px solid #198754;
+            border-radius: 8px;
+        }
+
+        .arab {
+            font-size: 22px;
+            text-align: right;
+            direction: rtl;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .poster-wrapper {
+            margin: 30px auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+            max-width: 380px;
+        }
+
+        .poster-wrapper svg {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .poster-caption {
+            text-align: center;
+            font-size: 13px;
+            color: #6c757d;
+            margin-top: 8px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">← Kembali</a>
+  </div>
+</nav>
+
+<div class="container py-5">
+<div class="content">
+
+<h2>QUIZ 2 - Adab Makan dan Minum: Meraih Keberkahan dalam Setiap Suapan</h2>
+
+<!-- POSTER -->
+<div class="poster-wrapper">
+<svg width="100%" viewBox="0 0 680 1080" role="img" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="1080" fill="#FAF6EE"/>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="0.8" fill="#C8B89A" opacity="0.35"/>
+  </pattern>
+  <rect width="680" height="1080" fill="url(#dots)"/>
+  <rect x="0" y="0" width="14" height="1080" fill="#2D4A1E"/>
+  <rect x="0" y="120" width="14" height="6" fill="#C4956A"/>
+  <rect x="0" y="420" width="14" height="6" fill="#C4956A"/>
+  <rect x="0" y="720" width="14" height="6" fill="#C4956A"/>
+  <rect x="14" y="0" width="666" height="340" fill="#2D4A1E"/>
+  <text x="44" y="72" font-family="Georgia,serif" font-size="13" fill="#8DB87A" letter-spacing="4">A D A B</text>
+  <text x="44" y="140" font-family="Georgia,serif" font-size="74" font-weight="700" fill="#F4EFE4" letter-spacing="-2">Makan</text>
+  <text x="368" y="140" font-family="Georgia,serif" font-size="74" font-weight="400" fill="#C4956A" font-style="italic">&amp;</text>
+  <text x="44" y="210" font-family="Georgia,serif" font-size="74" font-weight="700" fill="#F4EFE4" letter-spacing="-2">Minum</text>
+  <text x="44" y="242" font-family="Georgia,serif" font-size="13" fill="#8DB87A" letter-spacing="3">M E N E L A D A N I   S U N N A H</text>
+  <line x1="44" y1="258" x2="400" y2="258" stroke="#C4956A" stroke-width="1"/>
+  <line x1="410" y1="258" x2="430" y2="258" stroke="#C4956A" stroke-width="3"/>
+  <line x1="440" y1="258" x2="445" y2="258" stroke="#C4956A" stroke-width="1"/>
+  <text x="44" y="284" font-family="Georgia,serif" font-size="12" fill="#B0C89A" font-style="italic">"Makanlah di antara rizki yang baik-baik yang Kami berikan kepadamu…"</text>
+  <text x="44" y="304" font-family="Georgia,serif" font-size="11" fill="#8DB87A">— QS. Al-Baqarah: 172</text>
+  <!-- Bowl illustration -->
+  <g transform="translate(570,170)">
+    <path d="M-70,30 C-80,80 -50,110 0,112 C50,110 80,80 70,30Z" fill="#8B4513"/>
+    <ellipse cx="0" cy="30" rx="70" ry="18" fill="#A0522D"/>
+    <ellipse cx="0" cy="30" rx="58" ry="14" fill="#6B3410"/>
+    <path d="M-20,-10 C-18,-30 -14,-45 -20,-60" fill="none" stroke="#C4956A" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M0,-5 C4,-28 2,-48 -2,-65" fill="none" stroke="#C4956A" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M20,-8 C22,-32 18,-50 22,-68" fill="none" stroke="#C4956A" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <ellipse cx="-15" cy="24" rx="8" ry="3" fill="#5A2D0A" opacity="0.5"/>
+    <ellipse cx="10" cy="28" rx="6" ry="2" fill="#5A2D0A" opacity="0.4"/>
+    <ellipse cx="-8" cy="22" rx="3" ry="1.5" fill="#4A7A30" opacity="0.8" transform="rotate(-20,-8,22)"/>
+    <ellipse cx="18" cy="26" rx="3" ry="1.5" fill="#4A7A30" opacity="0.8" transform="rotate(15,18,26)"/>
+    <ellipse cx="0" cy="108" rx="80" ry="10" fill="#D4C5B0" opacity="0.4"/>
+  </g>
+  <!-- Dates -->
+  <g transform="translate(490,50)" opacity="0.6">
+    <ellipse cx="0" cy="0" rx="8" ry="14" fill="#8B2500"/>
+    <ellipse cx="0" cy="-2" rx="6" ry="10" fill="#A03000"/>
+    <line x1="0" y1="-14" x2="0" y2="-22" stroke="#5C3A1E" stroke-width="1.5"/>
+    <ellipse cx="18" cy="-4" rx="8" ry="14" fill="#7A2000"/>
+    <line x1="18" y1="-18" x2="18" y2="-26" stroke="#5C3A1E" stroke-width="1.5"/>
+    <ellipse cx="-18" cy="-2" rx="8" ry="13" fill="#6B1E00"/>
+    <line x1="-18" y1="-15" x2="-20" y2="-23" stroke="#5C3A1E" stroke-width="1.5"/>
+    <path d="M-20,-23 C-10,-30 10,-30 18,-26" fill="none" stroke="#5C3A1E" stroke-width="1.5"/>
+  </g>
+  <!-- Sebelum Makan section -->
+  <text x="44" y="380" font-family="Georgia,serif" font-size="10" fill="#2D4A1E" letter-spacing="5" font-weight="700">S E B E L U M   M A K A N</text>
+  <line x1="44" y1="388" x2="220" y2="388" stroke="#2D4A1E" stroke-width="0.8"/>
+  <text x="44" y="420" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#2D4A1E">Cuci kedua tangan</text>
+  <text x="44" y="440" font-family="Georgia,serif" font-size="13" fill="#7A6A55" font-style="italic">sunnah sebelum menyentuh makanan (HR. An-Nasa'i)</text>
+  <line x1="44" y1="454" x2="640" y2="454" stroke="#D4C5B0" stroke-width="0.5"/>
+  <text x="44" y="484" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#2D4A1E">Tata niat untuk ibadah</text>
+  <text x="44" y="504" font-family="Georgia,serif" font-size="13" fill="#7A6A55" font-style="italic">ubah rutinitas menjadi pahala</text>
+  <line x1="44" y1="518" x2="640" y2="518" stroke="#D4C5B0" stroke-width="0.5"/>
+  <text x="44" y="548" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#2D4A1E">Duduk tawadhu'</text>
+  <text x="44" y="568" font-family="Georgia,serif" font-size="13" fill="#7A6A55" font-style="italic">di atas alas lantai, hindari bersandar (HR. Al-Bukhari no. 5399)</text>
+  <!-- Sitting figure -->
+  <g transform="translate(590,480)">
+    <rect x="-55" y="55" width="110" height="8" rx="2" fill="#C8A870" opacity="0.6"/>
+    <circle cx="0" cy="-30" r="14" fill="#D4A574"/>
+    <circle cx="-4" cy="-32" r="1.5" fill="#7A4A25"/>
+    <circle cx="4" cy="-32" r="1.5" fill="#7A4A25"/>
+    <path d="M-3,-26 Q0,-24 3,-26" fill="none" stroke="#7A4A25" stroke-width="1" stroke-linecap="round"/>
+    <path d="M-12,-16 C-16,5 -18,30 -15,55 C-5,58 5,58 15,55 C18,30 16,5 12,-16Z" fill="#4A6B3A"/>
+    <path d="M-12,-5 C-22,8 -28,25 -22,38" fill="none" stroke="#D4A574" stroke-width="5" stroke-linecap="round"/>
+    <path d="M12,-5 C22,8 28,25 22,38" fill="none" stroke="#D4A574" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-15,55 C-30,58 -45,55 -45,60 C-45,62 -10,64 0,62" fill="#3A5A2A"/>
+    <path d="M15,55 C30,58 45,55 45,60 C45,62 10,64 0,62" fill="#3A5A2A"/>
+  </g>
+  <!-- Ketika Makan -->
+  <line x1="44" y1="590" x2="640" y2="590" stroke="#2D4A1E" stroke-width="1.5"/>
+  <text x="44" y="616" font-family="Georgia,serif" font-size="10" fill="#2D4A1E" letter-spacing="5" font-weight="700">K E T I K A   M A K A N</text>
+  <line x1="44" y1="624" x2="220" y2="624" stroke="#2D4A1E" stroke-width="0.8"/>
+  <!-- Bismillah card -->
+  <rect x="44" y="634" width="390" height="72" fill="#2D4A1E" rx="4"/>
+  <text x="230" y="660" font-family="Georgia,serif" font-size="11" fill="#8DB87A" text-anchor="middle" letter-spacing="2">B A C A</text>
+  <text x="230" y="694" font-family="Georgia,serif" font-size="30" fill="#F4EFE4" text-anchor="middle">بِسْمِ اللّٰهِ</text>
+  <text x="448" y="648" font-family="Georgia,serif" font-size="10" fill="#7A6A55" font-style="italic">jika lupa, ucap:</text>
+  <text x="448" y="666" font-family="Georgia,serif" font-size="12" fill="#2D4A1E" font-weight="700">Bismillaahi awwaalahu</text>
+  <text x="448" y="682" font-family="Georgia,serif" font-size="12" fill="#2D4A1E" font-weight="700">wa aakhirahu</text>
+  <text x="448" y="698" font-family="Georgia,serif" font-size="10" fill="#7A6A55">HR. Abu Dawud no. 3767</text>
+  <!-- Plate illustration -->
+  <g transform="translate(580,780)">
+    <ellipse cx="0" cy="20" rx="62" ry="18" fill="#C8B89A" opacity="0.5"/>
+    <ellipse cx="0" cy="18" rx="50" ry="14" fill="#F4EFE4"/>
+    <ellipse cx="0" cy="16" rx="38" ry="10" fill="#D4B89A" opacity="0.4"/>
+    <circle cx="-10" cy="14" r="4" fill="#A08060" opacity="0.5"/>
+    <circle cx="5" cy="18" r="5" fill="#8B6040" opacity="0.4"/>
+    <circle cx="-2" cy="22" r="3" fill="#7A5030" opacity="0.4"/>
+    <text x="0" y="42" font-family="Georgia,serif" font-size="9" fill="#5A4A35" text-anchor="middle" font-style="italic">dari pinggir ke tengah</text>
+    <path d="M-18,-38 C-20,-20 -22,0 -20,14" fill="none" stroke="#D4A574" stroke-width="5" stroke-linecap="round"/>
+    <path d="M0,-42 C0,-22 0,0 0,12" fill="none" stroke="#D4A574" stroke-width="5" stroke-linecap="round"/>
+    <path d="M18,-36 C20,-18 20,2 18,12" fill="none" stroke="#D4A574" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-22,-38 C-20,-55 20,-55 22,-36 C20,-30 -20,-30 -22,-38Z" fill="#D4A574"/>
+    <text x="0" y="-58" font-family="Georgia,serif" font-size="9" fill="#5A4A35" text-anchor="middle">3 jari kanan</text>
+  </g>
+  <text x="44" y="736" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#2D4A1E">Ambil dari pinggir piring</text>
+  <text x="44" y="756" font-family="Georgia,serif" font-size="13" fill="#7A6A55" font-style="italic">berkah turun di tengah hidangan (HR. Muslim no. 2031)</text>
+  <line x1="44" y1="770" x2="500" y2="770" stroke="#D4C5B0" stroke-width="0.5"/>
+  <text x="44" y="800" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#2D4A1E">Aturan 1/3 perut</text>
+  <text x="44" y="820" font-family="Georgia,serif" font-size="13" fill="#7A6A55" font-style="italic">makanan · minuman · udara (HR. Ahmad, Tirmidzi)</text>
+  <line x1="44" y1="834" x2="500" y2="834" stroke="#D4C5B0" stroke-width="0.5"/>
+  <text x="44" y="862" font-family="Georgia,serif" font-size="22" font-weight="700" fill="#2D4A1E">Jangan tiup minuman panas</text>
+  <text x="44" y="882" font-family="Georgia,serif" font-size="13" fill="#7A6A55" font-style="italic">biarkan mendingin sendiri (HR. Abu Sa'id al-Khudri)</text>
+  <!-- Doa penutup block -->
+  <rect x="14" y="906" width="666" height="142" fill="#2D4A1E"/>
+  <!-- Olive branches -->
+  <g transform="translate(50,964)" opacity="0.55">
+    <path d="M0,30 C5,15 8,-5 5,-28" fill="none" stroke="#8DB87A" stroke-width="1.5" stroke-linecap="round"/>
+    <ellipse cx="2" cy="5" rx="9" ry="5" fill="#5C7A4E" transform="rotate(-35,2,5)"/>
+    <ellipse cx="8" cy="-10" rx="9" ry="5" fill="#4A6B3A" transform="rotate(-20,8,-10)"/>
+    <ellipse cx="4" cy="-22" rx="8" ry="4" fill="#5C7A4E" transform="rotate(-10,4,-22)"/>
+    <circle cx="6" cy="-28" r="3.5" fill="#8B6040"/>
+  </g>
+  <g transform="translate(630,964)" opacity="0.55">
+    <path d="M0,30 C-5,15 -8,-5 -5,-28" fill="none" stroke="#8DB87A" stroke-width="1.5" stroke-linecap="round"/>
+    <ellipse cx="-2" cy="5" rx="9" ry="5" fill="#5C7A4E" transform="rotate(35,-2,5)"/>
+    <ellipse cx="-8" cy="-10" rx="9" ry="5" fill="#4A6B3A" transform="rotate(20,-8,-10)"/>
+    <ellipse cx="-4" cy="-22" rx="8" ry="4" fill="#5C7A4E" transform="rotate(10,-4,-22)"/>
+    <circle cx="-6" cy="-28" r="3.5" fill="#8B6040"/>
+  </g>
+  <text x="340" y="930" font-family="Georgia,serif" font-size="10" fill="#8DB87A" text-anchor="middle" letter-spacing="4">D O A   S E L E S A I   M A K A N</text>
+  <text x="340" y="966" font-family="Georgia,serif" font-size="21" fill="#F4EFE4" text-anchor="middle">اَلْحَمْدُ لِلّٰهِ الَّذِيْ أَطْعَمَنِيْ هٰذَا وَرَزَقَنِيْهِ</text>
+  <text x="340" y="992" font-family="Georgia,serif" font-size="11" fill="#B0C89A" text-anchor="middle" font-style="italic">Alhamdulillaahil-ladzii ath'amanii haadzaa wa razaqaniihi…</text>
+  <line x1="200" y1="1002" x2="340" y2="1002" stroke="#C4956A" stroke-width="0.5"/>
+  <line x1="340" y1="1002" x2="480" y2="1002" stroke="#C4956A" stroke-width="0.5"/>
+  <text x="340" y="1018" font-family="Georgia,serif" font-size="11" fill="#8DB87A" text-anchor="middle">Niscaya diampuni dosa-dosanya yang telah lalu — HR. Abu Dawud</text>
+  <text x="340" y="1036" font-family="Georgia,serif" font-size="10" fill="#6A8A5A" text-anchor="middle" font-style="italic">Jangan mencela makanan · Pungut yang jatuh · Jilati jari sebelum dicuci</text>
+  <rect x="14" y="1048" width="666" height="32" fill="#1E3214"/>
+  <text x="44" y="1068" font-family="Georgia,serif" font-size="10" fill="#6A8A5A" letter-spacing="1">ADAB MAKAN &amp; MINUM · SUNNAH RASULULLAH ﷺ</text>
+  <text x="636" y="1068" font-family="Georgia,serif" font-size="10" fill="#6A8A5A" text-anchor="end" letter-spacing="1">بِسْمِ اللّٰهِ</text>
+</svg>
+</div>
+<p class="poster-caption">Poster Infografis: Adab Makan &amp; Minum — Panduan Visual Praktis Meneladani Sunnah Rasulullah ﷺ</p>
+
+<p>
+    Makan dan minum adalah aktivitas yang dilakukan setiap hari, namun sering kali dianggap
+    sekadar rutinitas biasa. Dalam Islam, justru di sinilah salah satu ladang pahala yang mudah
+    diraih — dengan meneladani adab Rasulullah ﷺ, setiap suapan bisa bernilai ibadah. Secara
+    garis besar, adab makan dan minum dalam Islam berdiri di atas tiga pilar: <b>Syariat</b>
+    (memastikan makanan halal dan thayyib), <b>Spiritualitas</b> (meniatkan makan untuk
+    menguatkan ibadah), dan <b>Tawadhu'</b> (menjaga kesederhanaan, postur tubuh, dan empati
+    sosial).
+</p>
+
+<div class="ayat mt-3">
+    <div class="arab">
+        يَا أَيُّهَا الَّذِينَ آمَنُوا كُلُوا مِنْ طَيِّبَاتِ مَا رَزَقْنَاكُمْ
+    </div>
+    "Hai orang-orang yang beriman, makanlah di antara rizki yang baik-baik yang Kami berikan kepadamu..."
+    <br><b>(QS. Al-Baqarah: 172)</b>
+</div>
+
+<p class="mt-3">
+    Ayat tersebut mengisyaratkan bahwa makan bukan hanya soal mengisi perut, tetapi juga soal
+    mensyukuri nikmat dan menjaga adab. Perintah untuk memakan yang baik-baik mencakup dua
+    dimensi sekaligus: kehalalan secara hukum syariat, dan kebaikan secara kualitas serta cara
+    mengonsumsinya.
+</p>
+
+<h5 class="mt-4">Sebelum Makan: Menyiapkan Diri dan Hati</h5>
+<p>
+    Adab dimulai jauh sebelum makanan menyentuh lidah. Sunnah pertama adalah <b>mencuci kedua
+    tangan</b> sebelum makan, terutama jika dalam keadaan kotor atau meragukan kebersihannya
+    (HR. An-Nasa'i). Ini bukan sekadar kebersihan fisik, melainkan simbol kesiapan diri.
+</p>
+
+<p>
+    Yang lebih penting adalah <b>menata niat</b>. Niatkan makan dan minum semata-mata untuk
+    menguatkan badan agar bisa beribadah secara maksimal kepada Allah. Dengan niat ini, rutinitas
+    harian berubah menjadi ibadah. Selain itu, dianjurkan untuk <b>duduk dengan tawadhu'</b> —
+    tidak bersandar dan tidak makan sambil berdiri. Rasulullah ﷺ bersabda bahwa beliau tidak
+    pernah makan sambil bersandar karena beliau hanyalah seorang hamba yang makan dan duduk
+    sebagaimana layaknya seorang hamba (HR. Al-Bukhari no. 5399).
+</p>
+
+<p>
+    Makan bersama keluarga, tamu, atau pembantu juga sangat dianjurkan, karena Rasulullah ﷺ
+    menyebut bahwa di dalam makan bersama terdapat keberkahan (HR. Abu Dawud no. 3764).
+</p>
+
+<h5 class="mt-4">Ketika Makan: Adab di Setiap Suapan</h5>
+<p>
+    Saat hendak makan, wajib membaca <b>Bismillah</b>. Jika terlupa di awal, segera ucapkan
+    saat teringat: <i>"Bismillaahi awwaalahu wa aakhirahu"</i> — dengan menyebut nama Allah di
+    awal dan akhirnya (HR. Abu Dawud no. 3767). Makan menggunakan <b>tangan kanan dengan tiga
+    jari</b> — jempol, telunjuk, dan tengah — adalah sunnah yang juga bermanfaat secara praktis:
+    menyedikitkan suapan dan memperbanyak kunyahan (HR. Muslim).
+</p>
+
+<p>
+    Ambillah makanan <b>dari bagian pinggir piring</b>, bukan dari tengah, karena Rasulullah ﷺ
+    bersabda bahwa keberkahan turun di tengah-tengah hidangan, maka makanlah dari pinggir dan
+    jangan memulai dari bagian tengahnya (HR. Muslim no. 2031). Perhatikan pula <b>aturan 1/3
+    perut</b>: sepertiga untuk makanan, sepertiga untuk minuman, dan sepertiga untuk udara
+    (HR. Ahmad, Tirmidzi, Ibnu Majah). Hindari makan hingga kekenyangan karena perut yang terlalu
+    penuh menumpulkan semangat beribadah.
+</p>
+
+<h5 class="mt-4">Adab Minum: Sunnah yang Sering Terlupakan</h5>
+<p>
+    Dalam hal minum, <b>jangan meniup minuman panas</b> — biarkan mendingin secara alami, dan
+    dilarang keras meniup ke dalam gelas (HR. Abu Sa'id al-Khudri). Minumlah dengan <b>tiga
+    tegukan</b> sambil menjauhkan gelas dari mulut saat bernapas, dan jangan menghirup udara
+    di dalam gelas (HR. Bukhari/Muslim). Dianjurkan pula minum <b>sambil duduk</b> sebagaimana
+    sunnah Rasulullah ﷺ. Untuk minuman susu, terdapat doa khusus yang dianjurkan:
+    <i>"Allaahumma baarik lanaa fiimaa razaqtanaa wa zidnaa minhu"</i> — Ya Allah, berkahilah
+    apa yang Engkau rezekikan kepada kami dan tambahkanlah darinya (HR. Abu Dawud).
+</p>
+
+<h5 class="mt-4">Adab Sosial di Meja Makan</h5>
+<p>
+    Islam juga mengatur bagaimana bersikap ketika makan bersama orang lain. Saat makan bersama
+    orang tua atau tokoh, dahulukan mereka mengambil hidangan dan tunjukkan adab terpuji, hindari
+    sifat serakah. Saat makan bersama orang yang lebih membutuhkan, prioritaskan mereka agar
+    merasa dihargai. Saat makan bersama teman sebaya, boleh bercanda dalam batas wajar untuk
+    berbagi kegembiraan. Dalam semua situasi, hindari menatap orang lain yang sedang makan agar
+    tidak membuat mereka canggung, dan jauhkan topik atau ucapan yang menjijikkan.
+</p>
+
+<p>
+    Yang tak kalah penting, <b>jangan pernah mencela makanan</b>. Jika berselera, makanlah.
+    Jika tidak suka, tinggalkan tanpa komentar negatif (HR. Al-Bukhari no. 3563). Jika sedang
+    bertamu atau berbuka puasa di rumah orang lain, hadiahkan doa untuk tuan rumah:
+    <i>"Aftara 'indakumus shaa-imuun wa akala tha'aamakumul abraar wa shallat 'alaikumul
+    malaa-ikah"</i> — Telah berbuka di rumahmu orang-orang yang berpuasa, telah makan
+    makananmu orang-orang baik, dan semoga para malaikat bershalawat (berdoa) untukmu
+    (HR. Abu Dawud no. 3854).
+</p>
+
+<h5 class="mt-4">Setelah Makan: Menutup dengan Syukur</h5>
+<p>
+    Selesai makan, <b>jilati ketiga jari</b> sebelum dicuci — ini adalah sunnah yang mengandung
+    nilai syukur atas setiap sisa nikmat. Jika ada makanan yang terjatuh, bersihkan bagian
+    kotornya lalu makanlah, jangan tinggalkan untuk syaitan (HR. Muslim no. 2033). Berkumur
+    atau membersihkan sela gigi dengan siwak juga dianjurkan agar mulut bersih saat berdzikir
+    dan berbicara.
+</p>
+
+<div class="ayat mt-3">
+    <div class="arab">
+        اَلْحَمْدُ لِلّٰهِ الَّذِيْ أَطْعَمَنِيْ هٰذَا وَرَزَقَنِيْهِ مِنْ غَيْرِ حَوْلٍ مِنِّيْ وَلَا قُوَّةٍ
+    </div>
+    <i>Alhamdulillaahil-ladzii ath'amanii haadzaa wa razaqaniihi min ghairi haulin minnii walaa quwwatin</i>
+    <br>"Segala puji bagi Allah yang telah memberi makan ini kepadaku dan yang telah memberi
+    rezeki kepadaku tanpa daya dan kekuatan dariku."
+    <br><b>(HR. Abu Dawud) — Keutamaan: niscaya diampuni dosa-dosanya yang telah lalu</b>
+</div>
+
+<h5 class="mt-4">Fungsi Adab Makan dan Minum dalam Islam</h5>
+<ul>
+    <li>Mengubah rutinitas harian menjadi ibadah bernilai pahala</li>
+    <li>Melatih kerendahan hati (tawadhu') dan rasa syukur kepada Allah</li>
+    <li>Menjaga kesehatan fisik melalui aturan porsi dan cara makan yang benar</li>
+    <li>Mempererat hubungan sosial melalui makan bersama</li>
+    <li>Mendatangkan keberkahan dalam setiap suapan dan tegukan</li>
+</ul>
+
+<h5>Kesimpulan</h5>
+<p>
+    Adab makan dan minum dalam Islam bukan sekadar tata krama di meja makan. Ia adalah cerminan
+    kerendahan hati, rasa syukur, dan ketundukan kepada Allah sebagai Sang Pemberi Rezeki.
+    Sebagaimana disampaikan dalam kajian adab-adab makan dan minum, adab bukanlah sekadar tata
+    krama, melainkan jalan pembuka bagi turunnya Al-Barakah di setiap dimensi kehidupan kita.
+    Ketika sunnah ini dihidupkan dalam keseharian, setiap suapan menjadi doa, setiap tegukan
+    menjadi ibadah, dan setiap momen makan menjadi jalan menuju keberkahan hidup.
+</p>
+
+<p class="mt-4">
+    <b>Sumber:</b><br>
+    1. Materi Adab Makan dan Minum dalam Islam<br>
+    2. Al-Qur'an Surah Al-Baqarah ayat 172<br>
+    3. HR. Al-Bukhari no. 5399 — Posisi duduk saat makan<br>
+    4. HR. Abu Dawud no. 3764, 3767, 3854 — Makan bersama, Bismillah, Doa tamu<br>
+    5. HR. Muslim no. 2031, 2033 — Makan dari pinggir, makanan jatuh<br>
+    6. HR. Ahmad, Tirmidzi, Ibnu Majah — Aturan 1/3 perut<br>
+    7. Syaikh 'Abdul Hamid bin 'Abdirrahman as-Suhaibani — Adab-adab Makan dan Minum (Almanhaj)<br>
+    8. Kementerian Agama Republik Indonesia, 2019 — Terjemahan Al-Qur'an
+</p>
+
+</div>
+</div>
+
+</body>
+</html>
